@@ -9,3 +9,6 @@ print(type(result))
 
 name="pranav"
 print(type(name))
+
+print(float(number))
+print(int(number1))
