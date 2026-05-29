@@ -1,6 +1,14 @@
-age=int(input("Enter yor age: "))
-if age <= 20:
-    if age >= 10:
-       print("You are allowed to go to 10th grade.") 
+age=float(input("Enter age: "))
+x=(" ")
+if age % 1 != 0:
+    print("Enter a whole number")
+elif age % 2 == 0:
+    print("even")
+elif age % 2 == 1:
+    print("odd")
 else:
-    print("Sorry not allowed to join 10th grade")
+    try:
+        ValueError
+    except:
+        print("Enter a number")
+ 
