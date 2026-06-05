@@ -1,0 +1,8 @@
+tupel=(1, 2, 3, 4, 5)
+print(tupel)
+tupel=tupel + (9,)
+tupel1=(1, 2, 1, 3, 4, 1, 5, 1)
+print(tupel1.count(1))
+print(tupel1[3:6])
+tupel2=("Hello", "bye")
+print(tupel2)
